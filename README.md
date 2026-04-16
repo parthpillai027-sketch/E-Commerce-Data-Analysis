@@ -1,1 +1,10 @@
-# E-Commerce-Data-Analysis
+E-Commerce Data Analysis (Superstore Dataset)
+This project focuses on analyzing an e-commerce retail dataset (Sample Superstore) to uncover meaningful insights related to sales performance, product trends, and category-wise revenue distribution. The main objective of this analysis is to understand how sales vary over time, identify the most profitable categories and sub-categories, and extract patterns that can support better business decision-making.
+
+The dataset used in this project contains information such as order and shipping dates, sales values, product categories, sub-categories, and customer-related details. As part of the analysis, the data was first cleaned and explored using basic functions to understand its structure. The date columns were converted into proper datetime format, and additional features such as order month, year, and day of the week were extracted to enable time-based analysis.
+
+Using Python libraries like Pandas and Plotly, various forms of exploratory data analysis were performed. Monthly sales trends were analyzed to observe how revenue changes over time, while category-wise and sub-category-wise analyses helped identify which segments contribute the most to overall sales. Interactive visualizations were created, including line charts for sales trends, donut charts for category distribution, and bar charts for sub-category performance, making the insights more intuitive and easier to interpret.
+
+The analysis revealed that sales fluctuate across different months, with certain periods generating significantly higher revenue. It also showed that a few categories dominate total sales, while some sub-categories perform much better than others, indicating potential areas for optimization. These insights highlight how data analysis can be used to understand customer demand and improve business strategies.
+
+Overall, this project demonstrates the practical application of data analysis techniques in an e-commerce context. It showcases how raw data can be transformed into actionable insights through cleaning, exploration, and visualization. In the future, this project can be extended by incorporating profit analysis, building an interactive dashboard using tools like Streamlit, and applying predictive techniques to forecast sales trends.
